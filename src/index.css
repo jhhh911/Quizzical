@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F7FB;
+}
+
+button {
+  cursor: pointer;
+}
+
+.title-page {
+  height: 700px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid black;
+}
+
+.title-page h1 {
+  font-family: 'Karla', sans-serif;
+  color: #293264;
+  font-size: 2rem;
+}
+
+.title-page p {
+  font-family: 'Inter', sans-serif;
+}
+
+.title-page button {
+  padding: 1.5rem 3rem;
+  border: none;
+  background-color: #293264;
+  margin-top: 1.9em;
+  color: #F5F7FB;
+  border-radius: 1em;
+}
+
+.blob {
+  position: absolute;
+}
+
+.blob-top {
+  top: 0;
+  right: 0;
+}
+
+.blob-bottom {
+  bottom: 0;
+  left: 0;
+}
